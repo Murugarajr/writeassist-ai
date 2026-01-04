@@ -1,4 +1,4 @@
-# How to Deploy Your WriteBetter AI Website
+# How to Deploy Your WriteAssist AI Website
 
 This guide will help you deploy your single-page website to GitHub Pages (free hosting).
 
@@ -20,7 +20,7 @@ website/
 Before deploying, copy the icon file to this folder:
 
 ```bash
-# From the writebetter-extension folder:
+# From the writeassist-extension folder:
 cp icon48.png website/
 ```
 
@@ -34,7 +34,7 @@ Open `index.html` and replace these placeholders:
 |------|--------------|
 | `YOUR-EXTENSION-ID` | Your actual Chrome Web Store extension ID |
 | `your-email@example.com` | Your actual contact email |
-| `© 2025 WriteBetter AI` | Your company/name if different |
+| `© 2025 WriteAssist AI` | Your company/name if different |
 
 ---
 
@@ -44,7 +44,7 @@ Open `index.html` and replace these placeholders:
 
 1. **Create a new GitHub repository**
    - Go to https://github.com/new
-   - Name: `writebetter` or `writebetter-ai`
+   - Name: `writeassist` or `writeassist-ai`
    - Make it **Public**
    - Don't initialize with README
 
@@ -55,7 +55,7 @@ Open `index.html` and replace these placeholders:
    git add .
    git commit -m "Initial website"
    git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/writebetter.git
+   git remote add origin https://github.com/YOUR-USERNAME/writeassist.git
    git push -u origin main
    ```
 
@@ -67,7 +67,7 @@ Open `index.html` and replace these placeholders:
 
 4. **Your website URL:**
    ```
-   https://YOUR-USERNAME.github.io/writebetter/
+   https://YOUR-USERNAME.github.io/writeassist/
    ```
 
 ### Option B: Add to Existing Repository
@@ -83,7 +83,7 @@ If you want to add the website to your extension repository:
 ## Step 4: Verify Deployment
 
 1. Wait 1-2 minutes for GitHub to build
-2. Visit your URL: `https://YOUR-USERNAME.github.io/writebetter/`
+2. Visit your URL: `https://YOUR-USERNAME.github.io/writeassist/`
 3. Test all sections:
    - [ ] Hero section loads
    - [ ] Features section displays
@@ -101,9 +101,9 @@ Once deployed, use these URLs:
 
 | Field | URL |
 |-------|-----|
-| **Privacy Policy URL** | `https://YOUR-USERNAME.github.io/writebetter/#privacy` |
-| **Homepage URL** | `https://YOUR-USERNAME.github.io/writebetter/` |
-| **Support URL** | `https://YOUR-USERNAME.github.io/writebetter/#privacy` (or create separate contact page) |
+| **Privacy Policy URL** | `https://YOUR-USERNAME.github.io/writeassist/#privacy` |
+| **Homepage URL** | `https://YOUR-USERNAME.github.io/writeassist/` |
+| **Support URL** | `https://YOUR-USERNAME.github.io/writeassist/#privacy` (or create separate contact page) |
 
 ---
 
@@ -113,12 +113,12 @@ If you have your own domain:
 
 1. Create a `CNAME` file in the website folder:
    ```
-   writebetter.yourdomain.com
+   writeassist.yourdomain.com
    ```
 
 2. Add DNS records at your domain registrar:
    - Type: CNAME
-   - Name: writebetter (or www)
+   - Name: writeassist (or www)
    - Value: YOUR-USERNAME.github.io
 
 3. Enable HTTPS in GitHub Pages settings
@@ -172,7 +172,7 @@ To make changes after deployment:
 
 **Privacy policy link not working?**
 - The privacy section uses anchor `#privacy`
-- Full URL: `https://your-site.github.io/writebetter/#privacy`
+- Full URL: `https://your-site.github.io/writeassist/#privacy`
 
 ---
 
